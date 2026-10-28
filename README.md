@@ -30,6 +30,23 @@ I used the Sentinel-1 dataset from Kaggle, which gave me exactly **5,548 graysca
 * `Exploratory_Data_Analysis_of_Sentinel_1_SAR_Oil_Spill_Images.ipynb`: The main attraction. This Jupyter Notebook contains all my code, from data extraction to the final visualization and statistical breakdowns.
 * *Note: The dataset itself isn't uploaded here due to size limits, but the notebook is wired to download it directly via the Kaggle API!*
 
+## Tech Stack & Libraries
+* **Language:** Python 3.x
+* **Data Manipulation & Analysis:** Pandas, NumPy
+* **Image Processing:** OpenCV (`cv2`)
+* **Data Visualization:** Matplotlib
+* **Environment:** Google Colab & Kaggle API
+
+## Visualizations Included in Notebook
+* Class distribution bar & pie charts (~2:1 imbalance split)
+* Random sample comparison grids (Oil vs. Non-Oil-Spill)
+* Extreme pixel intensity outlier inspection grids (Lowest & Highest mean intensities)
+* 2x2 statistical analysis panel (Histograms, Box Plots, and Mean vs. Standard Deviation Scatter Plot)
+
+## References & Dataset Attribution
+* **Dataset:** Sentinel-1 SAR Oil Spill Detection Dataset (CSIRO / Kaggle)
+* **Imaging Modality:** C-band Synthetic Aperture Radar (SAR) imagery from the European Space Agency's Sentinel-1 satellite.
+
 ## Want to run it yourself?
 
 1. Pop open the notebook in **Google Colab**.
