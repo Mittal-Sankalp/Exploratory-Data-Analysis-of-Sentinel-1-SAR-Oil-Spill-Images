@@ -49,6 +49,7 @@ I used the Sentinel-1 dataset from Kaggle, which gave me exactly **5,548 graysca
 
 ## Want to run it yourself?
 
-1. Pop open the notebook in **Google Colab**.
-2. When the first cell asks for it, drop in your `kaggle.json` API token (or set it as an environment variable).
-3. Hit "Run All." The script will fetch the data, crunch the numbers, and generate all the charts natively using NumPy, Pandas, Matplotlib, and OpenCV.
+1. Open the notebook in Google Colab.
+2. Create a token in your Kaggle account settings (API section).
+3. In Colab, open the key icon (Secrets) in the left sidebar, add a secret named `KAGGLE_API_TOKEN` with your token as the value, and turn on notebook access.
+4. Choose Runtime → Run all. The notebook downloads the dataset, extracts it, and generates the charts.
